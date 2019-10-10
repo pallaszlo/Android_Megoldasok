@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityLifecycleMonitor</string>
+    <string name="btnActTwo">Start Activity 2</string>
+    <string name="btnMainAct">Start MainActivity</string>
+</resources>
