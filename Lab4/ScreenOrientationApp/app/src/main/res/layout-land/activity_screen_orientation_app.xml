@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button  
+        android:id="@+id/Apple"  
+        android:text="Apple"
+        android:layout_width="250dp" 
+        android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginTop="20dip" />
+    <Button  
+        android:id="@+id/Mango"  
+        android:text="Mango"
+        android:layout_width="250dp" 
+        android:layout_height="wrap_content" 
+        android:padding="20dip"
+        android:layout_marginTop="20dip" 
+        android:layout_toRightOf="@id/Apple" />
+    <Button  
+        android:id="@+id/Banana"  
+        android:text="Banana"
+        android:layout_width="250dip" 
+        android:layout_height="wrap_content"   
+        android:padding="20dip" 
+        android:layout_marginTop="20dip" 
+        android:layout_below="@id/Apple" />
+    <Button  
+        android:id="@+id/Grapes"  
+        android:text="Grapes"
+        android:layout_width="250dip" 
+        android:layout_height="wrap_content"    
+        android:padding="20dip"
+        android:layout_marginTop="20dip"  
+        android:layout_below="@id/Apple"
+        android:layout_toRightOf="@id/Banana"  />
+    <Button  
+        android:id="@+id/Kiwi"  
+        android:text="Kiwi"
+        android:layout_width="250dip" 
+        android:layout_height="wrap_content"    
+        android:padding="20dip"
+        android:layout_marginTop="20dip" 
+        android:layout_below="@id/Banana" />
+</RelativeLayout>

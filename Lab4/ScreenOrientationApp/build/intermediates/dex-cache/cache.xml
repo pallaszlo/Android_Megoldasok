@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\EGYETEM\OKTATAS\Android programozas\Laborok\L6\L6\ScreenOrientationApp1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ec111de423165086c379d19aee61de4a3f90e453">
+        <dex dex="D:\EGYETEM\OKTATAS\Android programozas\Laborok\L6\L6\ScreenOrientationApp1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dd9919952d18ac4cd87498eb1354d958b9212c84\classes.dex" />
+    </item>
+    <item
+        jar="D:\EGYETEM\OKTATAS\Android programozas\Laborok\L6\L6\ScreenOrientationApp1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="509a4ab97405a3d546d2135c70b4f682952d01fe">
+        <dex dex="D:\EGYETEM\OKTATAS\Android programozas\Laborok\L6\L6\ScreenOrientationApp1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_34b48e14a03acb874e4e18f0f306c3f78b85b81b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\pali\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\EGYETEM\OKTATAS\Android programozas\Laborok\L6\L6\ScreenOrientationApp1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_8fde5a4a97db01919b668153a009d386430d72d2\classes.dex" />
+    </item>
+
+</items>
