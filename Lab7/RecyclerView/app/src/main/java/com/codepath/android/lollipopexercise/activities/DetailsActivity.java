@@ -34,6 +34,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         // Fill views with data
         Glide.with(DetailsActivity.this).load(mContact.getThumbnailDrawable()).centerCrop().into(ivProfile);
+        //ivProfile.setImageResource(mContact.getThumbnailDrawable());
         tvName.setText(mContact.getName());
         tvPhone.setText(mContact.getNumber());
     }
