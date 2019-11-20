@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\a86ad2f0b475b8c1e712ab850c30b21a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\61c9b8df80b51a8818fc34184ae80c74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\abb59c690c1e3a6614b08a7a12b411f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\97ff42518a875561ff366762841cb42e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9bad9f4e1cb95e3bce746cc9fc7c9e73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0dc61906927e715bf356c65e90db7ec4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a8f0051aac32c63a8ea91cb2136d8cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\974bafeec4165d2941956d994ac6cb49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a70b65808820a678afe3f537c21bffda\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3e20e177869e48e1aad5d92e784bfa69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8035321a51535084dfbd395076a5f778\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1968bf02e33fb27a2f83f1172b7e6a31\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a51cf7d925d41b398c2c06717d4cbed\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\889052bb232ae357f44a9913f3b61473\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\163d2fa27c0615fdedd757f9c30859af\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\017225d57ebb0bcb82979387ba8177a2\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+	package
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:17:5-54
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:1-37:12
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:16:11-69
+application
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:19:5-35:19
+	android:supportsRtl
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:24:9-40
+activity#com.example.android.navdrawerexperiment.MainActivity
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:25:9-34:20
+	android:label
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:27:13-45
+	android:theme
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:26:13-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\a86ad2f0b475b8c1e712ab850c30b21a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\a86ad2f0b475b8c1e712ab850c30b21a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\61c9b8df80b51a8818fc34184ae80c74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\61c9b8df80b51a8818fc34184ae80c74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\abb59c690c1e3a6614b08a7a12b411f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\abb59c690c1e3a6614b08a7a12b411f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\97ff42518a875561ff366762841cb42e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\97ff42518a875561ff366762841cb42e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9bad9f4e1cb95e3bce746cc9fc7c9e73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9bad9f4e1cb95e3bce746cc9fc7c9e73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0dc61906927e715bf356c65e90db7ec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0dc61906927e715bf356c65e90db7ec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a8f0051aac32c63a8ea91cb2136d8cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8a8f0051aac32c63a8ea91cb2136d8cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\974bafeec4165d2941956d994ac6cb49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\974bafeec4165d2941956d994ac6cb49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a70b65808820a678afe3f537c21bffda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a70b65808820a678afe3f537c21bffda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3e20e177869e48e1aad5d92e784bfa69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3e20e177869e48e1aad5d92e784bfa69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8035321a51535084dfbd395076a5f778\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\8035321a51535084dfbd395076a5f778\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1968bf02e33fb27a2f83f1172b7e6a31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1968bf02e33fb27a2f83f1172b7e6a31\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a51cf7d925d41b398c2c06717d4cbed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9a51cf7d925d41b398c2c06717d4cbed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\889052bb232ae357f44a9913f3b61473\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\889052bb232ae357f44a9913f3b61473\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\163d2fa27c0615fdedd757f9c30859af\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\163d2fa27c0615fdedd757f9c30859af\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\017225d57ebb0bcb82979387ba8177a2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pallaszlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\017225d57ebb0bcb82979387ba8177a2\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Temp\NavDrawerExperiment\app\src\main\AndroidManifest.xml

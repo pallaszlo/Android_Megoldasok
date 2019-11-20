@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
                     SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
                     SharedPreferences.Editor editor = settings.edit();
                     editor.putString("logged", "logged");
+                    if(true){
+
+                    }
                     editor.commit();
                     Toast.makeText(getApplicationContext(), "Successfull Login", Toast.LENGTH_SHORT).show();
 

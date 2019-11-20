@@ -12,6 +12,10 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+
+        String s = settings.getString("username", "");
+
     }
 
 
