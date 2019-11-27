@@ -72,7 +72,7 @@ public class ModifyCountryActivity extends Activity implements OnClickListener {
 
     public void returnHome() {
         Intent home_intent = new Intent(getApplicationContext(), CountryListActivity.class)
-                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                ;
         startActivity(home_intent);
     }
 }
