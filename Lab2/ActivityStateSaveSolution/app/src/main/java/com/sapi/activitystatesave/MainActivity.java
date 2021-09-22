@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 tv.append("\n" + tv.getText());
             }
         });
-
+/*
         if (savedInstanceState == null) {
             Log.d(TAG, "onCreate() method was invoked without a previous state");
         } else {
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
             Log.d(TAG, "onCreate() method was invoked with a previous state");
         }
-
+*/
     }
         @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
    // @Override
-/*    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         TextView usernameEditText= (TextView)findViewById(R.id.textview);
         if (savedInstanceState.getString("myEditText") != null) {
             usernameEditText.setText(savedInstanceState.getString("myEditText"));
         }
         Log.d(TAG, "onRestoreInstanceState");
-    }*/
+    }
 
     @Override
     protected void onRestart() {
