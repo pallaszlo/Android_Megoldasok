@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -79,6 +80,8 @@ public class MainActivity extends Activity {
             saveButton.setEnabled(false);
         }
         else {
+            Log.d("valami", getExternalFilesDir(filepath).toString());
+            // /storage/emulated/0/Android/data/ro.sapi.externalstorage/files/MyFileStorage
             myExternalFile = new File(getExternalFilesDir(filepath), filename);
         }
 
@@ -101,6 +104,23 @@ public class MainActivity extends Activity {
             return true;
         }
         return false;
+    }
+
+    public void addCommonBookmarks() {
+        String sd = Environment.getExternalStorageDirectory() + "/";
+
+        String[] dirs = new String[] {
+                sd + Environment.DIRECTORY_DCIM,
+                sd + Environment.DIRECTORY_DOWNLOADS,
+                sd + Environment.DIRECTORY_MOVIES,
+                sd + Environment.DIRECTORY_MUSIC,
+                sd + Environment.DIRECTORY_PICTURES
+        };
+
+        for (String dir : dirs) {
+
+            //addBookmark(new File(dir).getName(), dir);
+        }
     }
 
 

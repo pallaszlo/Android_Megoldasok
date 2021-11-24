@@ -3,6 +3,7 @@ package ro.sapi.retrofitstudents;
 import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -27,6 +28,12 @@ public interface APIService {
             @Field("name") String name,
             @Field("email") String email,
             @Field("status") Integer status);
+
+    @POST("tasks")
+    Call<Task> saveTask(@Body Task task);
+
+    @DELETE("tasks/{id}")
+    public Call<Task> deleteTaskWithID(@Path("id") int id);
 
     //Insert new student
     @FormUrlEncoded

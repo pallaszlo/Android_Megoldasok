@@ -43,6 +43,12 @@
         android:textStyle="normal"
         android:typeface="sans" />
 
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RememberMe" />
+
     <Button
         android:id="@+id/loginbutton"
         android:layout_width="match_parent"

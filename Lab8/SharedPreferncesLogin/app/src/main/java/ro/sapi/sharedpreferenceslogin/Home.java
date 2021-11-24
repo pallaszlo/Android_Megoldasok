@@ -23,7 +23,7 @@ public class Home extends AppCompatActivity {
     public void logOut(View v){
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         SharedPreferences.Editor editor = settings.edit();
-        editor.remove("logged");
+        editor.remove("remember");
         editor.commit();
         finish();
     }

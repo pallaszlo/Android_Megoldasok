@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 public class CustomAdapter extends BaseAdapter {
 
-
     private Context mContext;
     private final String[] gridViewString;
     private final int[] gridViewImageId;

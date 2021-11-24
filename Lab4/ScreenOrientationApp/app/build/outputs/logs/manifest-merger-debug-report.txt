@@ -31,8 +31,6 @@ ADDED from D:\Android\Android_Megoldasok\Lab4\ScreenOrientationApp\app\src\main\
 		ADDED from D:\Android\Android_Megoldasok\Lab4\ScreenOrientationApp\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.androidunleashed.screenorientationapp.ScreenOrientationAppActivity
 ADDED from D:\Android\Android_Megoldasok\Lab4\ScreenOrientationApp\app\src\main\AndroidManifest.xml:12:9-20:20
-	android:screenOrientation
-		ADDED from D:\Android\Android_Megoldasok\Lab4\ScreenOrientationApp\app\src\main\AndroidManifest.xml:14:75-112
 	android:label
 		ADDED from D:\Android\Android_Megoldasok\Lab4\ScreenOrientationApp\app\src\main\AndroidManifest.xml:14:13-74
 	android:name

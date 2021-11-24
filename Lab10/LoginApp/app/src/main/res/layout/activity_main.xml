@@ -37,4 +37,13 @@
         android:layout_marginTop="10dp"
         android:onClick="checkLogin"/>
 
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_marginBottom="-67dp"
+        android:text="Regisztracio"
+        android:onClick="regisztral"/>
+
 </RelativeLayout>

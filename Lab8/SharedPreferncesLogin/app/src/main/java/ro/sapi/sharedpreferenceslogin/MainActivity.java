@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -17,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final CheckBox rme  = findViewById(R.id.rememberMe);
+
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        if (settings.getString("logged", "").toString().equals("logged")) {
+        if (settings.getString("remember", "").toString().equals("true")) {
             Intent intent = new Intent(this, Home.class);
             startActivity(intent);
         }
@@ -35,9 +38,12 @@ public class MainActivity extends AppCompatActivity {
                     //make SharedPreferences object
                     SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
                     SharedPreferences.Editor editor = settings.edit();
-                    editor.putString("logged", "logged");
-                    if(true){
-
+                    //editor.putString("remember", "true");
+                    if(rme.isChecked()){
+                        editor.putString("remember", "true");
+                    }
+                    else{
+                        editor.putString("remember", "false");
                     }
                     editor.commit();
                     Toast.makeText(getApplicationContext(), "Successfull Login", Toast.LENGTH_SHORT).show();

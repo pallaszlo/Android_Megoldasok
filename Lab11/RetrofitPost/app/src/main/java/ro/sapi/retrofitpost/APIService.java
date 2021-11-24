@@ -18,7 +18,7 @@ public interface APIService {
     Call<Post> savePost(@Body Post post);
 
     @FormUrlEncoded
-    @POST("login.inc3.php")
+    @POST("login.inc4.php")
     public Call<LoginResponse> loginUser(@Field("username") String userNameValue,
                                            @Field("password") String passwordValue);
 

@@ -3,21 +3,14 @@ package ro.sapi.retrofitstudents;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Todo {
+public class Task {
 
-    @SerializedName("id")
-    @Expose
-    private Integer id;
     @SerializedName("description")
     @Expose
     private String description;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
+    public Task(String description) {
+        this.description = description;
     }
 
     public String getDescription() {

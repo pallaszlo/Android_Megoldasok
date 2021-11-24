@@ -3,6 +3,7 @@ package ro.sapi.actionbar;
 import android.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class LocationFound extends AppCompatActivity {
 
@@ -19,5 +20,11 @@ public class LocationFound extends AppCompatActivity {
 
         // Enabling Up / Back navigation
         //actionBar.setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("Status:", "Destroy");
     }
 }

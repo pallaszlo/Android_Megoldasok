@@ -5,7 +5,7 @@ public class ApiUtils {
     private ApiUtils() {}
 
     //public static final String BASE_URL = "http://jsonplaceholder.typicode.com/";
-    public static final String BASE_URL = "http://10.0.2.2/androidlogin/";
+    public static final String BASE_URL = "http://192.168.0.3/androidlogin/";
 
     public static APIService getAPIService() {
 

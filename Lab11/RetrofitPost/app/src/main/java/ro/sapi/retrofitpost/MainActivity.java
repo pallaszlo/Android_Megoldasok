@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 String title = titleEt.getText().toString().trim();
                 String body = bodyEt.getText().toString().trim();
                 //if(!TextUtils.isEmpty(title) && !TextUtils.isEmpty(body)) {
-                    sendPost2("alma@alma.ro", "alma");
+                    //sendPost(titleEt.getText().toString(), bodyEt.getText().toString());
+                    sendPost2("alma@alma.ro", "korte");
                 //}
             }
         });
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<Post> call, Throwable t) {
                 Log.e("TAG", "Unable to submit post to API.");
+                t.printStackTrace();
             }
         });
     }

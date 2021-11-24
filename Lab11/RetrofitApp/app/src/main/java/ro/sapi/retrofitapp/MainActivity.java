@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
 
 
@@ -17,6 +18,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     private CustomAdapter adapter;
+    private TodosAdapter adapter2;
     private RecyclerView recyclerView;
 
     ProgressDialog progressDoalog;
@@ -55,13 +57,17 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new Callback<List<Todo>>() {
             @Override
             public void onResponse(Call<List<Todo>> call, Response<List<Todo>> response) {
-                List<Todo> todos = response.body();
+                //List<Todo> todos = response.body();
+                progressDoalog.dismiss();
+                generateDataList2(response.body());
+                Log.d("aa",response.body().toString());
 
             }
 
             @Override
             public void onFailure(Call<List<Todo>> call, Throwable t) {
-
+                progressDoalog.dismiss();
+                Toast.makeText(MainActivity.this, "Something went wrong...Please try later!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -74,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
+    }
+
+    private void generateDataList2(List<Todo> photoList) {
+        recyclerView = findViewById(R.id.customRecyclerView);
+        adapter2 = new TodosAdapter(this, photoList);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setAdapter(adapter2);
     }
 
 }

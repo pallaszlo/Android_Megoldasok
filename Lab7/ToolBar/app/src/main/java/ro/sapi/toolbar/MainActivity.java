@@ -26,11 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
-        getSupportActionBar().setDisplayUseLogoEnabled(true);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        //getSupportActionBar().setDisplayUseLogoEnabled(true);
 
         toolbar.setNavigationIcon(R.drawable.ic_toolbar_arrow);
+        /*
         toolbar.setNavigationOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
         );
+
+         */
     }
 
     @Override
@@ -62,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_location_found:
                 // location found
-                LocationFound();
+                //LocationFound();
+                Intent i = new Intent(MainActivity.this, LocationFound.class);
+                startActivity(i);
                 return true;
             case R.id.action_refresh:
                 // refresh

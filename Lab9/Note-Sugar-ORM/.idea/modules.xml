@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Note-Sugar-ORM.iml" filepath="$PROJECT_DIR$/Note-Sugar-ORM.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Note-Sugar-ORM.iml" filepath="$PROJECT_DIR$/Note-Sugar-ORM.iml" group="Note-Sugar-ORM" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Note-Sugar-ORM/app" />
     </modules>
   </component>
 </project>

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 16
+    compileSdkVersion 30
     buildToolsVersion '28.0.2'
 
     defaultConfig {
         applicationId "com.androidunleashed.fragmentcodeapp"
-        minSdkVersion 11
-        targetSdkVersion 15
+        minSdkVersion 23
+        targetSdkVersion 30
     }
 
     buildTypes {

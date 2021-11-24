@@ -33,7 +33,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.VH> {
     // Inflate the view based on the viewType provided.
     @Override
     public VH onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_contact, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item2_contact, parent, false);
         return new VH(itemView, mContext);
     }
 
@@ -56,14 +56,14 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.VH> {
         final View rootView;
         final ImageView ivProfile;
         final TextView tvName;
-        final View vPalette;
+        //final View vPalette;
 
         public VH(View itemView, final Context context) {
             super(itemView);
             rootView = itemView;
             ivProfile = (ImageView)itemView.findViewById(R.id.ivProfile);
             tvName = (TextView)itemView.findViewById(R.id.tvName);
-            vPalette = itemView.findViewById(R.id.vPalette);
+            //vPalette = itemView.findViewById(R.id.vPalette);
 
             // Navigate to contact details activity on click of card view.
             itemView.setOnClickListener(new View.OnClickListener() {

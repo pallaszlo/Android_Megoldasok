@@ -3,6 +3,7 @@ package com.codepath.android.lollipopexercise.activities;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,11 +32,12 @@ public class ContactsActivity extends AppCompatActivity {
         rvContacts.setHasFixedSize(true);
 
         // Define 2 column grid layout
-        final GridLayoutManager layout = new GridLayoutManager(ContactsActivity.this, 2);
+        //final GridLayoutManager layout = new GridLayoutManager(ContactsActivity.this, 3);
 
         // Unlike ListView, you have to explicitly give a LayoutManager to the RecyclerView to position items on the screen.
         // There are three LayoutManager provided at the moment: GridLayoutManager, StaggeredGridLayoutManager and LinearLayoutManager.
-        rvContacts.setLayoutManager(layout);
+        //rvContacts.setLayoutManager(layout);
+        rvContacts.setLayoutManager(new LinearLayoutManager(this));
 
         // get data
         contacts = Contact.getContacts();

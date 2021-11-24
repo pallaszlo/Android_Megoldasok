@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
     public void WriteBtn(View v) {
         // add-write text into file
         try {
-            FileOutputStream fileout=openFileOutput("mytextfile.txt", MODE_PRIVATE);
+            FileOutputStream fileout=openFileOutput("mytextfile.txt", MODE_APPEND);
             OutputStreamWriter outputWriter=new OutputStreamWriter(fileout);
             outputWriter.write(textmsg.getText().toString());
             outputWriter.close();

@@ -17,14 +17,14 @@ public class LocationFound extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        toolbar.setNavigationIcon(R.drawable.ic_toolbar_arrow);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //toolbar.setNavigationIcon(R.drawable.ic_toolbar_arrow);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(getApplicationContext(),"Back button clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                Toast.makeText(getApplicationContext(),"Back button clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
         });
