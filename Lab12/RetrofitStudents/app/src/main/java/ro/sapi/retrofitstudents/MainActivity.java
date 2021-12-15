@@ -2,6 +2,7 @@ package ro.sapi.retrofitstudents;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         name.setText(stud.getName());
                         email.setText(stud.getEmail());
                         status.setText(stud.getStatus().toString());
+                        Log.d("info", response.body().toString());
                     }
 
                     @Override
@@ -69,11 +71,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<Student> call, Response<Student> response) {
                         Student stud = response.body();
+
                         program_id.setText(stud.getProgramId().toString());
                         name.setText(stud.getName());
                         email.setText(stud.getEmail());
                         status.setText(stud.getStatus().toString());
                         Toast.makeText(MainActivity.this, "Sikeres törlés!", Toast.LENGTH_SHORT).show();
+
+
                     }
 
                     @Override
@@ -100,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                         program_id.setText(stud.getProgramId().toString());
                         name.setText(stud.getName());
                         email.setText(stud.getEmail());
-                        status.setText(stud.getStatus().toString());
+                        //status.setText(stud.getStatus().toString());
                         Toast.makeText(MainActivity.this, "Új hallgató létrehozva!", Toast.LENGTH_SHORT).show();
                     }
 
